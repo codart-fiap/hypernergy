@@ -1,0 +1,23 @@
+/* Gerais */
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+/* Alterações nas classes Bootstrap */
+
+.btn-primary {
+    color: white !important;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    color: black !important;
+    background-color: transparent !important;
+    border-color: black !important;
+}
+
+.text-black:hover {
+    color: #313131 !important;
+}
