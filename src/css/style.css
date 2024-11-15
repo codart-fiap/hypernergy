@@ -4,6 +4,18 @@
     font-family: "Inter", sans-serif;
 }
 
+.text-principal {
+    color: black;
+}
+
+.bg-body {
+    background-color: black;
+}
+
+.container {
+    margin-top: 200px;
+}
+
 /* Alterações nas classes Bootstrap */
 
 .btn-primary {
@@ -28,4 +40,15 @@
 
 .nomesEquipe li{
     margin-top: 5%;
+}
+.btn-secondary {
+    color: black !important;
+    background-color: white !important;
+    border-color: white !important;
+}
+
+.btn-secondary:hover {
+    color: white !important;
+    background-color: transparent !important;
+    border-color: white !important;
 }
