@@ -52,3 +52,23 @@
     background-color: transparent !important;
     border-color: white !important;
 }
+
+/* Estilos para a página Por que? */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.display-1 {
+    font-size: 5rem;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 3.5rem;
+    }
+}
