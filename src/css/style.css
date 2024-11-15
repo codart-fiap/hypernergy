@@ -49,8 +49,8 @@
 
 .btn-secondary:hover {
     color: white !important;
-    background-color: transparent !important;
-    border-color: white !important;
+    background-color: #198754 !important;
+    border-color: #198754 !important;
 }
 
 /* Estilos para a página Por que? */
