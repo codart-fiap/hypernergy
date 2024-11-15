@@ -21,3 +21,11 @@
 .text-black:hover {
     color: #313131 !important;
 }
+
+.nomesEquipe{
+    list-style: none;
+}
+
+.nomesEquipe li{
+    margin-top: 5%;
+}
