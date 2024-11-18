@@ -89,12 +89,13 @@
             <div class="card">
                 <img src="../img/microondas.svg" class="card-img-top" alt="Imagem de um microondas">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Microondas</strong></strong></li>
-                <li class="list-group-item">Tarifa kWh: R$ 0,75</li>
-                <li class="list-group-item">Potência em watt: 1200W</li>
-                <li class="list-group-item">Tempo em Horas: 0,5h/dia</li>
-                <li class="list-group-item">Consumo Diário: R$ 0,45</li>
-                <li class="list-group-item">Consumo Mensal: R$ 13,50</li>
+                <li class="list-group-item"><strong>Microondas</strong></li>
+                <li class="list-group-item">Tarifa kWh: <input type="number" class="form-control tarifa" value="0.75" step="0.01"></li>
+                <li class="list-group-item">Potência em watt: <input type="number" class="form-control potencia" value="1200"></li>
+                <li class="list-group-item">Tempo em Horas: <input type="number" class="form-control tempo" value="0.5" step="0.1"></li>
+                <li class="list-group-item">Consumo Diário: <span class="text-dark fw-bold consumo-diario">R$ 0,45</span></li>
+                <li class="list-group-item">Consumo Mensal: <span class="text-dark fw-bold consumo-mensal">R$ 13,50</span></li>
+                <li class="list-group-item"><button class="btn btn-primary w-100" onclick="atualizarGraficos()">Atualizar Gastos</button></li>
                 </ul>
             </div>
         </div>
@@ -102,12 +103,13 @@
             <div class="card">
                 <img src="../img/ar-condicionado.svg" class="card-img-top" alt="Imagem de um ar-condicionado">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Ar-Condicionado</strong></strong></li>
-                <li class="list-group-item">Tarifa kWh: R$ 0,75</li>
-                <li class="list-group-item">Potência em watt: 1500W</li>
-                <li class="list-group-item">Tempo em Horas: 8h/dia</li>
-                <li class="list-group-item">Consumo Diário: R$ 9,00</li>
-                <li class="list-group-item">Consumo Mensal: R$ 270,00</li>
+                <li class="list-group-item"><strong>Ar-Condicionado</strong></li>
+                <li class="list-group-item">Tarifa kWh: <input type="number" class="form-control tarifa" value="0.75" step="0.01"></li>
+                <li class="list-group-item">Potência em watt: <input type="number" class="form-control potencia" value="1500"></li>
+                <li class="list-group-item">Tempo em Horas: <input type="number" class="form-control tempo" value="8" step="0.1"></li>
+                <li class="list-group-item">Consumo Diário: <span class="text-dark fw-bold consumo-diario">R$ 9,00</span></li>
+                <li class="list-group-item">Consumo Mensal: <span class="text-dark fw-bold consumo-mensal">R$ 270,00</span></li>
+                <li class="list-group-item"><button class="btn btn-primary w-100" onclick="atualizarGraficos()">Atualizar Gastos</button></li>
                 </ul>
             </div>
         </div>
@@ -115,12 +117,13 @@
             <div class="card">
                 <img src="../img/chuveiro.svg" class="card-img-top" alt="Imagem de um chuveiro elétrico">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Chuveiro</strong></strong></li>
-                <li class="list-group-item">Tarifa kWh: R$ 0,75</li>
-                <li class="list-group-item">Potência em watt: 5500W</li>
-                <li class="list-group-item">Tempo em Horas: 0,5h/dia</li>
-                <li class="list-group-item">Consumo Diário: R$ 2,06</li>
-                <li class="list-group-item">Consumo Mensal: R$ 61,80</li>
+                <li class="list-group-item"><strong>Chuveiro</strong></li>
+                <li class="list-group-item">Tarifa kWh: <input type="number" class="form-control tarifa" value="0.75" step="0.01"></li>
+                <li class="list-group-item">Potência em watt: <input type="number" class="form-control potencia" value="5500"></li>
+                <li class="list-group-item">Tempo em Horas: <input type="number" class="form-control tempo" value="0.5" step="0.1"></li>
+                <li class="list-group-item">Consumo Diário: <span class="text-dark fw-bold consumo-diario">R$ 2,06</span></li>
+                <li class="list-group-item">Consumo Mensal: <span class="text-dark fw-bold consumo-mensal">R$ 61,80</span></li>
+                <li class="list-group-item"><button class="btn btn-primary w-100" onclick="atualizarGraficos()">Atualizar Gastos</button></li>
                 </ul>
             </div>
         </div>
@@ -128,12 +131,13 @@
             <div class="card">
                 <img src="../img/geladeira.svg" class="card-img-top" alt="Imagem de uma geladeira">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Geladeira</strong></strong></li>
-                <li class="list-group-item">Tarifa kWh: R$ 0,75</li>
-                <li class="list-group-item">Potência em watt: 250W</li>
-                <li class="list-group-item">Tempo em Horas: 24h/dia</li>
-                <li class="list-group-item">Consumo Diário: R$ 4,50</li>
-                <li class="list-group-item">Consumo Mensal: R$ 135,00</li>
+                <li class="list-group-item"><strong>Geladeira</strong></li>
+                <li class="list-group-item">Tarifa kWh: <input type="number" class="form-control tarifa" value="0.75" step="0.01"></li>
+                <li class="list-group-item">Potência em watt: <input type="number" class="form-control potencia" value="250"></li>
+                <li class="list-group-item">Tempo em Horas: <input type="number" class="form-control tempo" value="24" step="0.1"></li>
+                <li class="list-group-item">Consumo Diário: <span class="text-dark fw-bold consumo-diario">R$ 4,50</span></li>
+                <li class="list-group-item">Consumo Mensal: <span class="text-dark fw-bold consumo-mensal">R$ 135,00</span></li>
+                <li class="list-group-item"><button class="btn btn-primary w-100" onclick="atualizarGraficos()">Atualizar Gastos</button></li>
                 </ul>
             </div>
         </div>
@@ -141,80 +145,152 @@
             <div class="card">
                 <img src="../img/televisao.svg" class="card-img-top" alt="Imagem de uma televisão">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Televisão</strong></strong></li>
-                <li class="list-group-item">Tarifa kWh: R$ 0,75</li>
-                <li class="list-group-item">Potência em watt: 100W</li>
-                <li class="list-group-item">Tempo em Horas: 6h/dia</li>
-                <li class="list-group-item">Consumo Diário: R$ 0,45</li>
-                <li class="list-group-item">Consumo Mensal: R$ 13,50</li>
+                <li class="list-group-item"><strong>Televisão</strong></li>
+                <li class="list-group-item">Tarifa kWh: <input type="number" class="form-control tarifa" value="0.75" step="0.01"></li>
+                <li class="list-group-item">Potência em watt: <input type="number" class="form-control potencia" value="100"></li>
+                <li class="list-group-item">Tempo em Horas: <input type="number" class="form-control tempo" value="6" step="0.1"></li>
+                <li class="list-group-item">Consumo Diário: <span class="text-dark fw-bold consumo-diario">R$ 0,45</span></li>
+                <li class="list-group-item">Consumo Mensal: <span class="text-dark fw-bold consumo-mensal">R$ 13,50</span></li>
+                <li class="list-group-item"><button class="btn btn-primary w-100" onclick="atualizarGraficos()">Atualizar Gastos</button></li>
                 </ul>
             </div>
         </div>
     </div>
 
     <script>
-        const ctxAparelhos = document.getElementById('graficoAparelhos').getContext('2d');
-        new Chart(ctxAparelhos, {
-            type: 'pie',
-            data: {
-                labels: ['Microondas', 'Ar-Condicionado', 'Chuveiro', 'Geladeira', 'Televisão'],
-                datasets: [{
-                    data: [13.50, 270.00, 61.80, 135.00, 13.50],
-                    backgroundColor: [
+        let graficoAparelhos, graficoSemana, graficoMes;
+
+        function atualizarGraficos() {
+            setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 500);
+
+            const cards = document.querySelectorAll('.card');
+            
+            const labels = [];
+            const dadosConsumoMensal = [];
+            const dadosConsumoDiario = [];
+            
+            cards.forEach(card => {
+                const nome = card.querySelector('strong');
+                if (!nome) return;
+                
+                const tarifa = parseFloat(card.querySelector('.tarifa')?.value) || 0;
+                const potencia = parseFloat(card.querySelector('.potencia')?.value) || 0;
+                const tempo = parseFloat(card.querySelector('.tempo')?.value) || 0;
+                
+                const consumoDiario = ((potencia / 1000) * tempo * tarifa);
+                const consumoMensal = consumoDiario * 30;
+                
+                const consumoDiarioSpan = card.querySelector('.consumo-diario');
+                const consumoMensalSpan = card.querySelector('.consumo-mensal');
+                
+                if (consumoDiarioSpan && consumoMensalSpan) {
+                    consumoDiarioSpan.textContent = `R$ ${consumoDiario.toFixed(2).replace('.', ',')}`;
+                    consumoMensalSpan.textContent = `R$ ${consumoMensal.toFixed(2).replace('.', ',')}`;
+                }
+                
+                labels.push(nome.textContent);
+                dadosConsumoMensal.push(consumoMensal);
+                dadosConsumoDiario.push(consumoDiario);
+            });
+
+            if (graficoAparelhos) graficoAparelhos.destroy();
+            if (graficoSemana) graficoSemana.destroy();
+            if (graficoMes) graficoMes.destroy();
+
+            const ctxAparelhos = document.getElementById('graficoAparelhos').getContext('2d');
+            graficoAparelhos = new Chart(ctxAparelhos, {
+                type: 'pie',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: dadosConsumoMensal,
+                        backgroundColor: [
+                            '#FF6384',
+                            '#36A2EB',
+                            '#FFCE56',
+                            '#4BC0C0',
+                            '#9966FF'
+                        ]
+                    }]
+                }
+            });
+
+            const ctxSemana = document.getElementById('graficoSemana').getContext('2d');
+            const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+            
+            const datasets = labels.map((label, index) => {
+                const dadosSemana = diasSemana.map(() => {
+                    const variacao = 0.7 + Math.random() * 0.6;
+                    return dadosConsumoDiario[index] * variacao;
+                });
+
+                return {
+                    label: label,
+                    data: dadosSemana,
+                    borderColor: [
                         '#FF6384',
                         '#36A2EB',
                         '#FFCE56',
                         '#4BC0C0',
                         '#9966FF'
-                    ]
-                }]
-            }
-        });
+                    ][index],
+                    fill: false,
+                    tension: 0.4
+                };
+            });
 
-        const ctxSemana = document.getElementById('graficoSemana').getContext('2d');
-        new Chart(ctxSemana, {
-            type: 'line',
-            data: {
-                labels: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
-                datasets: [{
-                    label: 'Consumo (R$)',
-                    data: [16.46, 19.46, 16.46, 18.52, 16.46, 17.36, 20.46],
-                    borderColor: '#36A2EB',
-                    tension: 0.1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        title: {
-                            display: true,
-                            text: 'Consumo Diário (R$)'
+            graficoSemana = new Chart(ctxSemana, {
+                type: 'line',
+                data: {
+                    labels: diasSemana,
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Consumo Diário (R$)'
+                            }
+                        }
+                    },
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    plugins: {
+                        tooltip: {
+                            position: 'nearest'
                         }
                     }
                 }
-            }
-        });
+            });
 
-        const ctxMes = document.getElementById('graficoMes').getContext('2d');
-        new Chart(ctxMes, {
-            type: 'bar',
-            data: {
-                labels: ['Microondas', 'Ar-Condicionado', 'Chuveiro', 'Geladeira', 'Televisão'],
-                datasets: [{
-                    label: 'Consumo Mensal (R$)',
-                    data: [13.50, 270.00, 61.80, 135.00, 13.50],
-                    backgroundColor: '#4BC0C0'
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
+            const ctxMes = document.getElementById('graficoMes').getContext('2d');
+            graficoMes = new Chart(ctxMes, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Consumo Mensal (R$)',
+                        data: dadosConsumoMensal,
+                        backgroundColor: '#4BC0C0'
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
                     }
                 }
-            }
-        });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', atualizarGraficos);
     </script>
     
 </body>
